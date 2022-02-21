@@ -1,0 +1,33 @@
+{
+  "name": "github-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfajardo360/github-deployment.git"
+  },
+  "author": "360PMI",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-actuator": "^1.8.0",
+    "morgan": "^1.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sfajardo360/github-deployment/issues"
+  },
+  "homepage": "https://github.com/sfajardo360/github-deployment#readme"
+}
